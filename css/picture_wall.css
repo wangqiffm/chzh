@@ -1,0 +1,49 @@
+#projects{
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+#pic_wall{
+    color:white;
+    width:615px;
+    height:612px;
+    /*background-color: yellow;*/
+    float: left;
+}
+.pic_small{
+    float: left;
+    margin-right: 3px;
+}
+#txt_info{
+    font-family: arial;
+    color:white;
+    width:345px;
+    background-color: #252525;
+    font-size: 10px;
+    float: right;
+    height:616px
+}
+.title_home{
+    margin-bottom: 5px;
+    font-size: 12px;
+    color:#838383;
+    font-weight: bold;
+}
+.txt_home{
+    text-align:justify;
+    margin-bottom: 5px;
+    font-size: 11px;
+    color:#696969
+}
+.title_home_cn{
+    margin-bottom: 10px;
+    font-size: 14px;
+    color:#838383;
+    font-weight: bold;
+}
+.txt_home_cn{
+    text-align:justify;
+    margin-bottom: 15px;
+    font-size: 12px; 
+    color:#696969
+}

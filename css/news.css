@@ -1,0 +1,15 @@
+#news{
+    width:600px;
+    margin: 0 auto;
+    font-family: "Microsoft YAHEI", arial;
+    font-size:12px;
+}
+.news_item{
+    color:white;
+}
+.news_item:hover{
+    color:red;
+}
+.time{
+    margin-right: 15px;
+}

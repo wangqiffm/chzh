@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!--引入jQuery-->
+        <script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+
+        <!--引入Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <!--<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">-->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+
+        <!--引入页面整体布局CSS-->
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+
+        <!--入口幻灯片所需js和CSS-->
+        <script type="text/javascript" src="js/slider.js-master/js/jssor.slider.min.js"></script>
+        <script type="text/javascript" src="js/slidermaster.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/slider_entrance.css">
+
+        <!--<script type="text/javascript" src="js/online.js"></script>-->
+
+        <title>ChZh Architektur Design Büro</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="logo_home"><img src="image/image_logo/logo_2220x308_logo-mit-bueroname.PNG"></div>
+            <div class="h_spliter"></div>
+            <div id="slider1_container" class="jssor_slider_container">
+                <!-- Slides Container -->
+                <div u="slides" class="jssor_slider_show_area" 
+                     style="width:960px;height:400px; cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px">
+                    <div><img u="image" src="image/image_entrance_slide/chzh_entrance_slide 01.jpg" /></div>
+                    <div><img u="image" src="image/image_entrance_slide/chzh_entrance_slide 02.jpg" /></div>
+                    <div><img u="image" src="image/image_entrance_slide/chzh_entrance_slide 03.jpg" /></div>
+                    <div><img u="image" src="image/image_entrance_slide/chzh_entrance_slide 04.jpg" /></div>
+                </div>
+            </div>
+            <div class="h_spliter"></div>
+            <div id="div_language_button">
+                <div id="language_button_de">
+                    <!--<div id="language_button_link_de" class="button"><a href="de/home.html">Deutsch</a></div>-->
+                    <a href="de/home.html">
+                        <button id="language_button_link_de" type="button" class="btn btn-danger" style="width:180px;height:50px;font-size:20px;float:right">Deutsch</button>
+                    </a>
+                </div>
+                <div id="language_button_cn"> 
+                    <!--                    <div id="language_button_link_cn" class="button"><a href="cn/home.html">中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文</a></div>-->
+                    <a href="cn/home.html">
+                        <button id="language_button_link_cn" type="button" class="btn btn-danger" style="width:180px;height:50px;font-size:20px;float:left">中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

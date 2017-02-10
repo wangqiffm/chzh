@@ -1,0 +1,39 @@
+#projects_list{
+    width:960px;
+    margin: 0 auto;
+}
+.proj_small.p1{
+    margin-left: 0px;
+    margin-right: 5px; 
+}
+.proj_small{
+    float: left;
+    margin-top: 5px;   
+    margin-left: 4px;
+    margin-right: 4px; 
+}
+.proj_small.p7{
+    margin-left: 5px;
+    margin-right: 0px;
+}
+#de_projects{
+    /*margin-left: 10px;*/
+}
+#cn_projects{
+    /*margin-left: 10px;*/
+}
+
+.navi_bar{
+    font-weight: bold;
+}
+
+.projects_class{
+    color:white;
+    float: left;
+}
+.projects_list{
+    color:white;
+    float: right;
+    
+    cursor: pointer;
+}

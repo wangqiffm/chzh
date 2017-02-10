@@ -1,0 +1,56 @@
+#menu_top{
+    position: relative;
+    left:382px;
+    background-color: blue;
+    font: 0.85em Helvetica, Sans-Serif;
+    display: inline-block
+}
+.dropdown{
+}
+#language_swith{
+    float:right;
+    position: relative;
+    right:50px;
+    height: 27px;
+}
+#language_swith a{
+    font: 0.85em Helvetica, Sans-Serif;
+    color: #ddd;
+    font-weight: bold;
+}
+#language_swith a:hover{
+    color: white;
+}
+#language_swith:hover{
+    background-color: red;
+    color:white;
+}
+#content{
+    background-color: black;
+    /*height: 612px;*/
+}
+#pic_wall{
+    width: 612px;
+    background-color: black;
+    float: left;
+
+}
+#txt_info{
+    width: 348px;
+    background-color: black;
+    float: right
+}
+#navi{
+    background-color: red;
+    height: 27px;
+}
+.clear { 
+    clear: both; 
+}
+
+#load_picture_wall{
+  border-left: 1px solid #333;
+}
+#load_impress{
+  border-right: 1px solid #333;   
+}

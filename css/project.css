@@ -1,0 +1,113 @@
+#project_navi{
+    float:left;
+}
+#project_slider{
+    /*background-color: white;*/
+    /*border: 1px solid green;*/
+    position: relative; padding-top: 20px;  background: #1c1c1c;
+}
+#project_detail{
+    width:960px;
+    margin: 0 auto;
+    color:red;
+}
+#project_text{
+    /*display: none;*/
+}
+#project_title{
+
+}
+.ui-accordion-header{
+    height:14px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+}
+.ui-accordion-content{
+    font-size: 12px;
+}
+/* jssor slider thumbnail navigator skin 01 css */
+/*
+.jssort01 .p           (normal)
+.jssort01 .p:hover     (normal mouseover)
+.jssort01 .pav           (active)
+.jssort01 .pav:hover     (active mouseover)
+.jssort01 .pdn           (mousedown)
+*/
+.jssort01 .w
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.jssort01 .c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 68px;
+    height: 68px;
+    border: #000 2px solid;
+}
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c, .jssort01 .pav .c {
+    background: url(../js/slider.js-master/img/t01.png) center center;
+    border-width: 0px;
+    top: 2px;
+    left: 2px;
+    width: 68px;
+    height: 68px;
+}
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c {
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+    border: #fff 1px solid;
+}
+/*.slider_center{
+    margin: 0 auto;
+}
+.jssor_slider_container{
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    width: 450px; 
+    height: 319px;
+    margin:0 auto;
+    background-color: yellow
+       
+}
+.jssor_slider_show_area{
+    cursor: move; 
+    position: absolute; 
+    overflow: hidden; 
+    left: 0px; 
+    top: 0px; 
+    width: 450px;
+    height: 319px;
+}*/
+
+            /* jssor slider arrow navigator skin 16 css */
+            /*
+            .jssora16l              (normal)
+            .jssora16r              (normal)
+            .jssora16l:hover        (normal mouseover)
+            .jssora16r:hover        (normal mouseover)
+            .jssora16ldn            (mousedown)
+            .jssora16rdn            (mousedown)
+            */
+            .jssora16l, .jssora16r, .jssora16ldn, .jssora16rdn
+            {
+                position: absolute;
+                cursor: pointer;
+                display: block;
+                background: url(../js/slider.js-master/img/a16.png) no-repeat;
+                overflow:hidden;
+            }
+            .jssora16l { background-position: -19px -42px; }
+            .jssora16r { background-position: -79px -42px; }
+            .jssora16l:hover { background-position: -139px -42px; }
+            .jssora16r:hover { background-position: -199px -42px; }
+            .jssora16ldn { background-position: -259px -42px; }
+            .jssora16rdn { background-position: -319px -42px; }

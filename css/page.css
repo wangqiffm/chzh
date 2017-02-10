@@ -1,0 +1,89 @@
+/*
+页面整体布局
+*/
+*{
+    font-family: "Mircrosoft Yahei", "微软雅黑", Arial, sans-serif;
+}
+body{
+    background-color: black;
+    font-family: "Mircrosoft Yahei", "微软雅黑", Arial, sans-serif;
+}
+#wrapper {
+    width:960px;
+    margin: 0 auto;
+    background-color: black;
+}
+#logo_home img{
+    width: 576px;
+    height: 80px;
+    float: right
+}
+.h_spliter{
+    height: 10px;
+    width: 100%;
+    /*background-color: darkblue;*/
+    clear: both;
+}
+#div_language_button{
+    font-size: 24px;
+
+    margin-top: 20px;
+}
+#language_button_de{
+    width: 480px;
+    float:left;
+}
+#language_button_cn{
+    width: 480px;
+    float:right
+}
+#language_button_link_de{
+    float: right;
+    margin-right: 50px;
+    /*font-weight: bold;*/
+}
+#language_button_link_cn{
+    float: left;
+    font-weight: bold;
+    margin-left: 50px;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+/*
+.button {
+    width: 100px;
+    border-top: 1px solid #e30000;
+    background: #d66574;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6e0c0c), to(#d66574));
+    background: -webkit-linear-gradient(top, #6e0c0c, #d66574);
+    background: -moz-linear-gradient(top, #6e0c0c, #d66574);
+    background: -ms-linear-gradient(top, #6e0c0c, #d66574);
+    background: -o-linear-gradient(top, #6e0c0c, #d66574);
+    padding: 10px 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 18px;
+    font-family: 'Microsoft Yahei', Arial, Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold
+}
+.button:hover {
+    border-top-color: #e01b3c;
+    background: #e01b3c;
+    background: #993300;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: #de2c35;
+    background: #de2c35;
+}*/

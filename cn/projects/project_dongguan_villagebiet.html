@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>项目: 东莞御花园</title>
+
+        <!--引入jquery and jqueryui and CSS-->
+        <script type="text/javascript" src="../js/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="../js/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+        <link rel="stylesheet" type="text/css" href="../js/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css">
+        <script type="text/javascript" src="../js/project.js"></script>
+
+        <!--引入页面整体布局CSS-->
+        <link rel="stylesheet" type="text/css" href="../css/page.css">
+        <!--引入Project CSS-->
+        <link rel="stylesheet" type="text/css" href="../css/project.css">
+        <!-- use jssor.slider.min.js instead for release -->
+        <!-- jssor.slider.min.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
+        <script type="text/javascript" src="../js/slider.js-master/js/jssor.core.js"></script>
+        <script type="text/javascript" src="../js/slider.js-master/js/jssor.utils.js"></script>
+        <script type="text/javascript" src="../js/slider.js-master/js/jssor.slider.js"></script>
+    </head>
+    <body>
+        <div id="project_detail">
+            <div id="project_title">
+                项目： 东莞御花园
+            </div>
+            <div class="h_spliter"></div>
+            <div id="project_slider">
+                <!-- Jssor Slider Begin -->
+                <!-- You can move inline styles (except 'top', 'left', 'width' and 'height') to css file or css block. -->
+                <div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 960px; height: 418px; background: #1c1c1c; overflow: hidden;margin:0 auto">
+
+                    <!-- Loading Screen -->
+                    <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                        <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                             background-color: #1c1c1c; top: 0px; left: 0px;width: 100%;height:100%;">
+                        </div>
+                        <div style="position: absolute; display: block; background: url(../js/slider.js-master/img/loading.gif) no-repeat center center;
+                             top: 0px; left: 0px;width: 100%;height:100%;">
+                        </div>
+                    </div>
+                    <!-- Slides Container -->
+                    <div u="slides" style="cursor: move; position: absolute; left: 255px; top: 0px; width: 450px; height: 319px; overflow: hidden;">
+                        <div>
+                            <img u="image" src="../image/CN_Dongguan_Villagebiet/450x319/01.jpg" />
+                            <img u="thumb" src="../image/CN_Dongguan_Villagebiet/60x43/01.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="../image/CN_Dongguan_Villagebiet/450x319/02.jpg" />
+                            <img u="thumb" src="../image/CN_Dongguan_Villagebiet/60x43/02.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="../image/CN_Dongguan_Villagebiet/450x319/03.jpg" />
+                            <img u="thumb" src="../image/CN_Dongguan_Villagebiet/60x43/03.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="../image/CN_Dongguan_Villagebiet/450x319/04.jpg" />
+                            <img u="thumb" src="../image/CN_Dongguan_Villagebiet/60x43/04.jpg" />
+                        </div>
+                        <div>
+                            <img u="image" src="../image/CN_Dongguan_Villagebiet/450x319/05.jpg" />
+                            <img u="thumb" src="../image/CN_Dongguan_Villagebiet/60x43/05.jpg" />
+                        </div>
+
+                    </div>
+                                        <!-- Thumbnail Navigator Skin Begin -->
+                    <!-- Arrow Left -->
+                    <span u="arrowleft" class="jssora16l" style="width: 22px; height: 36px; top: 123px; left: 58px;">
+                    </span>
+                    <!-- Arrow Right -->
+                    <span u="arrowright" class="jssora16r" style="width: 22px; height: 36px; top: 123px; right: 58px">
+                    </span>
+
+                    <div u="thumbnavigator" class="jssort01" style="position: absolute; width: 960px; height: 100px; left:0px; bottom: 0px;">
+
+                        <!-- Thumbnail Item Skin Begin -->
+
+                        <div u="slides" style="cursor: move;">
+                            <div u="prototype" class="p" style="position: absolute; width: 72px; height: 72px; top: 0; left: 0;">
+                                <div class=w>
+                                    <thumbnailtemplate style=" width: 100%; height: 100%; border: none;position:absolute; top: 0; left: 0;"></thumbnailtemplate>
+                                </div>
+                                <div class=c>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Thumbnail Item Skin End -->
+                    </div>
+                    <!-- Thumbnail Navigator Skin End -->
+                    <!-- Trigger -->
+                </div>
+            </div>
+            <div class="h_spliter"></div>
+            <div id="project_text">
+                <h3>项目档案</h3>
+                <div>
+                    建筑类型: 别墅区规划  <br>
+                    业务范围: 方案设计+规划设计 <br>
+                </div>
+                
+            </div>
+            <div class="h_spliter"></div>
+        </div>
+        <!-- Jssor Slider End -->
+    </body>
+</html>

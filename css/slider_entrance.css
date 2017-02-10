@@ -1,0 +1,21 @@
+.slider_center{
+    margin: 0 auto;
+}
+.jssor_slider_container{
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    width: 960px; 
+    height: 400px;
+    margin:0 auto;
+    background-color: black;
+}
+.jssor_slider_show_area{
+    cursor: move; 
+    position: absolute; 
+    overflow: hidden; 
+    left: 0px; 
+    top: 0px; 
+    width: 960px;
+    height: 400px;
+}

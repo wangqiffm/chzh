@@ -1,0 +1,26 @@
+#team{
+    width:960px;
+    margin:0 auto;
+    color : white;
+    font-family: "Microsoft YAHEI", arial;
+    font-size:12px;
+}
+#team_list h3{
+    font-family: "Microsoft YAHEI", arial;
+}
+.head_foto{
+    width:150px;
+}
+.team_text_line{
+    
+}
+.team_text_line_header{
+    margin-right:15px;
+}
+.team_text td{
+    font-family: "Microsoft YAHEI", arial;
+    padding-right:20px;
+}
+.team_text tr:hover{
+    color:red;
+}

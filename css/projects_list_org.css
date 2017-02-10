@@ -1,0 +1,38 @@
+#projects_text_list{
+    width:960px;
+    margin: 0 auto;
+    color:white;
+    padding-left: 10px;
+    font-size:12px;
+}
+#de_projects_text_list{
+    width: 465px;
+    float: left;
+    margin-right: 10px;
+    background-color: #222;
+    height:450px;
+}
+#cn_projects_text_list{
+    height:450px;
+    background-color: #222;
+    width: 465px;
+    float: right;
+}
+.proj_name{
+    margin: 5px 10px;
+    cursor:pointer
+}
+.proj_name:hover{
+    color:red;
+    background-color: #181818;
+}
+#de_project_title{
+    width: 465px;
+    float: left;
+    font-weight: bold
+}
+#cn_project_title{
+    width: 465px;
+    float: right;
+    font-weight: bold
+}
