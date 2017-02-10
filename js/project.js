@@ -32,4 +32,14 @@ $(function() {
         collapsible: true,
         heightStyle: "content"
     });
+
+        //load projects overview
+    $("#back_to_overview").click(function() {
+        $("#content").load("projects_overview.html");
+        return false;
+    });
+    $("#back_to_list").on("click", function() {
+        $("#content").load("projects_list.html");
+        return false;
+    });
 });

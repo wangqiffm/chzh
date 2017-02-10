@@ -1,5 +1,16 @@
 #project_navi{
-    float:left;
+    float:right;
+    background-color: #1c1c1c;
+    padding: 10px;
+}
+#back_to_overview{
+    margin-right: 15px;
+
+    color:#ddd;
+}
+#back_to_list{
+
+    color:#ddd;
 }
 #project_slider{
     /*background-color: white;*/
@@ -9,13 +20,16 @@
 #project_detail{
     width:960px;
     margin: 0 auto;
-    color:red;
+    color:white;
 }
+
 #project_text{
     /*display: none;*/
 }
 #project_title{
-
+    float:left;
+    color:white;
+    padding: 10px;
 }
 .ui-accordion-header{
     height:14px;

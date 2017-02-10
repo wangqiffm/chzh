@@ -12,11 +12,14 @@
     position: relative;
     right:50px;
     height: 27px;
+    
 }
 #language_swith a{
     font: 0.85em Helvetica, Sans-Serif;
     color: #ddd;
     font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
 }
 #language_swith a:hover{
     color: white;

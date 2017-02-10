@@ -2,7 +2,6 @@
     width:960px;
     margin: 0 auto;
     color:white;
-    padding-left: 10px;
     font-size:12px;
 }
 #de_projects_text_list{
@@ -46,10 +45,11 @@
 #de_project_title{
     width: 465px;
     float: left;
-    font-weight: bold
+    font-weight: bold;
+    padding-left:12px;
 }
 #cn_project_title{
-    width: 465px;
+    width: 453px;
     float: right;
-    font-weight: bold
+    font-weight: bold;
 }

@@ -1,8 +1,12 @@
 #news{
-    width:600px;
+	padding-left:190px;
+    width:770px;
     margin: 0 auto;
     font-family: "Microsoft YAHEI", arial;
     font-size:12px;
+    background-color: #222;
+    height:460px;
+	overflow-y: scroll;
 }
 .news_item{
     color:white;
