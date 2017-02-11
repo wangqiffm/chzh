@@ -1,56 +1,88 @@
 /*
 页面整体布局
 */
-*{
+
+* {
     font-family: "Mircrosoft Yahei", "微软雅黑", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-body{
+
+body {
     background-color: black;
     font-family: "Mircrosoft Yahei", "微软雅黑", Arial, sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: black
+}
+
 #wrapper {
-    width:960px;
+    width: 960px;
     margin: 0 auto;
     background-color: black;
 }
-#logo_home img{
+
+#logo_home img {
     width: 576px;
     height: 80px;
     float: right
 }
-.h_spliter{
+
+.h_spliter {
     height: 10px;
     width: 100%;
     /*background-color: darkblue;*/
     clear: both;
 }
-#div_language_button{
-    font-size: 24px;
 
-    margin-top: 20px;
+#div_language_button {
+    font-size: 24px;
+    height: 64px;
+    background-color: #1c1c1c;
 }
-#language_button_de{
-    width: 480px;
-    float:left;
-}
-#language_button_cn{
-    width: 480px;
-    float:right
-}
-#language_button_link_de{
-    float: right;
-    margin-right: 50px;
-    /*font-weight: bold;*/
-}
-#language_button_link_cn{
+
+#language_button_de {
+    width: 50%;
     float: left;
-    font-weight: bold;
-    margin-left: 50px;
+    position: relative;
 }
-a{
-    text-decoration: none;
-    color:black
+
+#language_button_cn {
+    width: 50%;
+    float: right;
+    position: relative;
 }
+
+#language_button_cn a, #language_button_de a {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    height: 64px;
+    width: 100%;
+    line-height: 64px;
+    color: white;
+    -webkit-transition: background 600ms ease-in-out;
+    -moz-transition: background 600ms ease-in-out;
+    -ms-transition: background 600ms ease-in-out;
+    -o-transition: background 600ms ease-in-out;
+    transition: background 600ms ease-in-out;
+}
+
+#div_language_button a:hover {
+    background: #555;
+    -webkit-transition: background 600ms ease;
+    -moz-transition: background 600ms ease;
+    -ms-transition: background 600ms ease;
+    -o-transition: background 600ms ease;
+    transition: background 600ms ease;
+
+
+
+}
+
+
 /*
 .button {
     width: 100px;
