@@ -79,6 +79,7 @@ a {
     transition: background 600ms ease;
 
 
+    border-bottom: 2px solid red;
 
 }
 
