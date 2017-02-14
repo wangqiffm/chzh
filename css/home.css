@@ -1,7 +1,6 @@
 #menu_top{
     position: relative;
     left:382px;
-    background-color: blue;
     font: 0.85em Helvetica, Sans-Serif;
     display: inline-block
 }
@@ -16,7 +15,7 @@
 }
 #language_swith a{
     font: 0.85em Helvetica, Sans-Serif;
-    color: #ddd;
+    color: #c5c5c5;
     font-weight: bold;
     display: inline-block;
     vertical-align: middle;
@@ -25,7 +24,7 @@
     color: white;
 }
 #language_swith:hover{
-    background-color: red;
+    background: #252525;
     color:white;
 }
 #content{
@@ -44,7 +43,7 @@
     float: right
 }
 #navi{
-    background-color: red;
+    background-color: #252525;
     height: 27px;
 }
 .clear { 

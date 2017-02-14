@@ -4,7 +4,8 @@ $(function slidermaster($) {
 //        {$Duration:1200,$Zoom:11,$Rotate:-1,$Easing:{$Zoom:$JssorEasing$.$EaseInQuad,$Opacity:$JssorEasing$.$EaseLinear,$Rotate:$JssorEasing$.$EaseInQuad},$Opacity:2,$Round:{$Rotate:0.5},$Brother:{$Duration:1200,$Zoom:1,$Rotate:1,$Easing:$JssorEasing$.$EaseSwing,$Opacity:2,$Round:{$Rotate:0.5},$Shift:90}},
 //        {$Duration:1500,$Cols:2,$FlyDirection:1,$ChessMode:{$Column:3},$Easing:{$Left:$JssorEasing$.$EaseInOutCubic},$ScaleHorizontal:0.5,$Opacity:2,$Brother:{$Duration:1500,$Opacity:2}},
 //        {$Duration:1500,$During:{$Left:[0.6,0.4]},$FlyDirection:1,$Easing:{$Left:$JssorEasing$.$EaseInQuad,$Opacity:$JssorEasing$.$EaseLinear},$ScaleHorizontal:0.3,$Opacity:2,$Outside:true,$Brother:{$Duration:1000,$FlyDirection:2,$Easing:{$Left:$JssorEasing$.$EaseInQuad,$Opacity:$JssorEasing$.$EaseLinear},$ScaleHorizontal:0.3,$Opacity:2}},
-        {$Duration: 1000, $Zoom: 11, $SlideOut: true, $Easing: {$Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear}, $Opacity: 2}
+        //{$Duration: 1000, $Zoom: 11, $SlideOut: true, $Easing: {$Zoom: $JssorEasing$.$EaseInExpo, $Opacity: $JssorEasing$.$EaseLinear}, $Opacity: 2}
+        {$Duration:1000,$Opacity:2,$Brother:{$Duration:1000,$Opacity:2}}
     ];
 
     var options = {
